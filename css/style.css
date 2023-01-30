@@ -1,0 +1,48 @@
+.DDD{
+	background-color: aquamarine;
+	margin: 2% 0;
+}
+.NNN{	background-color: #00849E;}
+
+.inline-bl{
+	display: inline-block;
+	padding-inline-start:1%;
+	margin-right:1%;
+}
+
+.col-md-4{
+	float:left;
+	background-color:#EBDBFF;
+	padding-inline-start:1%;
+	margin-right:1%;
+	width:49%;
+}
+.offset-md-4{
+	float:right;
+	background-color:#EBDBFF;
+	width:49%;
+}
+
+
+
+h2{
+	text-align:center;
+	padding-top: 60px;
+}
+#AppTravel_img{
+	width: 450px;
+	height:500px;
+	margin:20px;
+}
+#logo_div{
+	text-align:center;
+	padding:1%;
+}
+
+
+
+a {
+	outline: none;
+	text-decoration: none;
+	color:blue;
+}
