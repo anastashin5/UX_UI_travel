@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+   <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGs03+Hhxv8T/Q5PaXtkktu6ug5T0eNV6gBiFeWPGFN9Muh0f23091fjh" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="https://bootstraptema.ru/plugins/2016/animate/animate.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css" type="text/css">
-    <title>UX/ UI Homework 20</title>
+	<link rel="stylesheet" href="https://bootstraptema.ru/plugins/2016/animate/animate.css" />
+	
+	<title>UX/ UI Homework 20</title>
 </head>
  
 <body>  
 	<header class="navigation">
-			<div class="NNN">
+			<div class="wrap">
 				<div id="logo_div"><img id="logo_img" src="images/Logo.png" alt="logo"/>
 				</div>
 				<div class="row">
@@ -23,7 +23,7 @@
 							<li class="inline-bl">More Work</li>
 						</ul>
 					</div>
-					<div class="offset-md-4">
+					<div class="offset-md-6">
 						<ul id="nav_menu">
 							<li class="inline-bl"></li>
 							<li class="inline-bl">+1 609 210 6688</li>
@@ -35,11 +35,7 @@
 	</header>
 	<section>
 				<h2>App "MDtravel"</h2>
-					
-
-
-
-				<div id="carousel-example-generic" class="carousel slide carousel-fade carousel-animate carousel-bg" data-ride="carousel">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 							<!-- Indicators -->
 					<ol class="carousel-indicators">
 						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -48,8 +44,9 @@
 						<li data-target="#carousel-example-generic" data-slide-to="3"></li>
 					 </ol>
 							<!-- Wrapper for slides -->
-				<div class="carousel-inner" role="listbox">
-					<div class="item active"><img id="AppTravel_img" src="images/AppTravel.png" class="photo", alt="Photo AppTravel">
+			
+				<div class="carousel-inner">
+					<div class="carousel-item active"><img src="images/AppTravel.png" class="d-block w-100" alt="Photo AppTravel">
 						<div class="hero">
 							<hgroup class="zoomInDown animated">
 								<h3 class="slideInRight animated">App "MDtravel"</h3>
@@ -57,12 +54,12 @@
 						</div>
 					</div>
 				 
-					<div class="item"><img id="AppTravel_img" src="images/Picture.png" class="photo", alt="AppTravel">
+					<div class="carousel-item"><img src="images/Picture.png" class="d-block w-100" alt="AppTravel">
 					</div>
-					<div class="item"><img id="AppTravel_img" src="images/AppTravel.png" class="photo", alt="AppTravel">
+					<div class="carousel-item"><img src="images/AppTravel.png" class="d-block w-100" alt="AppTravel">
 					</div>
 				 
-					<div class="item"><img id="AppTravel_img" src="images/AppTravel.png" class="photo", alt="AppTravel">
+					<div class="carousel-item"><img src="images/AppTravel.png" class="d-block w-100" alt="AppTravel">
 						<div class="hero rollIn animated">
 							<form action="https://projects.invisionapp.com/d/main?origin=v7#/console/22139521/469851145/preview?scrollOffset=0" target="_blank"><button class="btn btn-hero btn-lg" role="button">Prototyte</button>
 							</form>
@@ -70,163 +67,108 @@
 					</div>
 				</div>
 				<!-- Controls -->
-				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							
+				<a class="carousel-control-prev" href="#carousel-example-generic" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 					<span class="sr-only">Back</span>
 				</a>
-				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<a class="carousel-control-next" href="#carousel-example-generic" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
 					<span class="sr-only">Next</span>
 				</a>
-				</div>
-
-	
-	
-
-
-
-
-		
-		
-		
-		
-			<div class="DDD">
-
-		<nav>
-			<div class="nav nav-tabs" id="nav-tab" role="tablist">
-				<a class="nav-item nav-link active" id="nav-about-tab" 	 data-toggle="tab" href="#nav-about"    role="tab" aria-controls="nav-about" aria-selected="true">About Project</a>
-				<a class="nav-item nav-link" 		id="nav-research-tab" data-toggle="tab" href="#nav-research" role="tab" aria-controls="nav-research" aria-selected="false">Research</a>
-				<a class="nav-item nav-link" 		id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Ideate & Prototype</a>
-				<a class="nav-item nav-link" 		id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Competitor Analysis</a>
-				<a class="nav-item nav-link" 		id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">User Flow</a>	
-				<a class="nav-item nav-link" 		id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Testing and Iterating</a>			
-				<a class="nav-item nav-link" 		id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Conclusion</a>
 			</div>
-		</nav>
+			</div>
+
+	
+	
 		
-<div class="tab-content" id="nav-tabContent">
-	<div class="tab-pane fade show active" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
-		<div class="topic1"> 
-			<p style="font-weight:bold">RESEARCH OBJECTIVE:</p>
-			<p>A successful travel company has been a top seller for the past 10 years. Since the COVID-19 pandemic, the company's sales have dropped significantly compared to competitors. The company decided to reorganize its business and asked an IT company to develop an application for its travel agency.</p>
-			<p style="font-weight:bold">PROJECT GOALS:</p>
-				<ul>
-					<li>сonduct research and find out the reason for the decrease in demand for tours;</li>
-					<li>find out what stops people from buying a tour;</li>
-					<li>what type of tours are in demand in the post-COVID period.</li>
-				</ul>
-			<p style="font-weight:bold">MY ROLE:  UX/ UI designer (Individual Project).</p>
-			<p style="font-weight:bold">TOOLS: Miro, InVision, Google Drive.</p>
-			<p style="font-weight:bold">MOBILE PROTOTYPE: “MDtravel.com”.</p>
-			<p style="font-weight:bold">GOAL:</p>
-It is necessary to increase sales and return to pre-pandemic sales levels. Increase in site traffic.
-			<p style="font-weight:bold">MY ROLE & RESPONSIBILITIES</p>
-Explore the needs of tourists after the pandemic, their fears and wishes. Add the necessary services to increase sales. Develop a user-friendly application. Create a pleasing design.
-
-			<p style="font-weight:bold">TIME LINE: 5 weeks</p>
-
-		</div>
-	</div>
-	<div class="tab-pane fade" id="nav-research" role="tabpanel" aria-labelledby="nav-research-tab">///////////////////////</div>
-	<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">.1.2.3.</div>
-
-
-	<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
-
-
-	<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
-
-
-	<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
-
-
-	<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
-</div>
-
+		
+		
+		
+			<div class="project">
+				<nav>
+					<div class="nav nav-tabs"               id="nav-tab"                                                     role="tablist">
+						<a class="nav-item nav-link active" id="nav-about-tab" 	    data-toggle="tab" href="#nav-about"      role="tab" aria-controls="nav-about"      aria-selected="true">About Project</a>
+						<a class="nav-item nav-link" 		id="nav-research-tab"   data-toggle="tab" href="#nav-research"   role="tab" aria-controls="nav-research"   aria-selected="false">Research</a>
+						<a class="nav-item nav-link" 		id="nav-prototype-tab"  data-toggle="tab" href="#nav-prototype"  role="tab" aria-controls="nav-prototype"  aria-selected="false">Ideate & Prototype</a>
+						<a class="nav-item nav-link" 		id="nav-competitor-tab" data-toggle="tab" href="#nav-competitor" role="tab" aria-controls="nav-competitor" aria-selected="false">Competitor Analysis</a>
+						<a class="nav-item nav-link" 		id="nav-flow-tab"       data-toggle="tab" href="#nav-flow"       role="tab" aria-controls="nav-flow"       aria-selected="false">User Flow</a>	
+						<a class="nav-item nav-link" 		id="nav-test-tab"       data-toggle="tab" href="#nav-test"       role="tab" aria-controls="nav-test"       aria-selected="false">Testing</a>			
+						<a class="nav-item nav-link" 		id="nav-conclusion-tab" data-toggle="tab" href="#nav-conclusion" role="tab" aria-controls="nav-conclusion" aria-selected="false">Conclusion</a>
+					</div>
+				</nav>
+				<div class="tab-content" id="nav-tabContent">
+					<div class="tab-pane fade show active" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
+						<div class="topic1"> 
+							<p style="font-weight:bold">RESEARCH OBJECTIVE:</p>
+							<p>A successful travel company has been a top seller for the past 10 years. Since the COVID-19 pandemic, the company's sales have dropped significantly compared to competitors. The company decided to reorganize its business and asked an IT company to develop an application for its travel agency.</p>
+							<p style="font-weight:bold">PROJECT GOALS:</p>
+								<ul>
+									<li>сonduct research and find out the reason for the decrease in demand for tours;</li>
+									<li>find out what stops people from buying a tour;</li>
+									<li>what type of tours are in demand in the post-COVID period.</li>
+								</ul>
+							<p style="font-weight:bold">MY ROLE:  UX/ UI designer (Individual Project).</p>
+							<p style="font-weight:bold">TOOLS: Miro, InVision, Google Drive.</p>
+							<p style="font-weight:bold">MOBILE PROTOTYPE: “MDtravel.com”.</p>
+							<p style="font-weight:bold">GOAL:</p>
+							<p>It is necessary to increase sales and return to pre-pandemic sales levels. Increase in site traffic.</p>
+							<p style="font-weight:bold">MY ROLE & RESPONSIBILITIES</p>
+							<p>Explore the needs of tourists after the pandemic, their fears and wishes. Add the necessary services to increase sales. Develop a user-friendly application. Create a pleasing design.</p>
+							<p style="font-weight:bold">TIME LINE: 5 weeks</p>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="nav-research" role="tabpanel" aria-labelledby="nav-research-tab">
+						<div class="topic1"> 
+							<p style="font-weight:bold">Surveying Users</p>
+							<p>I interviewed 5 people by conducting a live interview, 13 people filled out Google forms. The survey was conducted in the age group (25-75 years old) and three categories of tourists:</p>
+							
+							<ul>
+								<li>youth, as a single;</li>
+								<li>couples without children and couples with children;</li>
+								<li>pensioners.</li>
+							</lu>
+							<p>Note: families with and without children are considered separately in order to make a more accurate analysis and find out the factor that affects families when buying a tour. It can be a financial factor or a moral one, like responsibility for children.</p></br>
+							<p>The survey consists of semi-structured questions and is supplemented with quantitative data. Quantitative data (age, social status, and in which period before or after the pandemic there were more visits to the site) were obtained using the analytics counter on the site. Analytics counter data was taken for the period December 2018 to December 2021 to see the demand trend.</p>
+							<p style="font-weight:bold">Interview Plan</p>
+							<ol>
+								<li>Which age group is more active in post-COVID travel?</li>
+								<li>How has the pandemic affected the motivation of travelers?</li>
+								<li>What additional services do travelers want to include when booking a tour?</li>
+								<li>How are our competitors different?</li>
+								<li>What can we do to increase sales?</li>
+							</ol>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="nav-prototype" role="tabpanel" aria-labelledby="nav-prototype-tab">Ideate & Prototype</div>
+					<div class="tab-pane fade" id="nav-competitor" role="tabpanel" aria-labelledby="nav-contact-tab">Competitor</div>
+					<div class="tab-pane fade" id="nav-flow" role="tabpanel" aria-labelledby="nav-flow-tab">User Flow</div>
+					<div class="tab-pane fade" id="nav-test" role="tabpanel" aria-labelledby="nav-test-tab">Testing</div>
+					<div class="tab-pane fade" id="nav-conclusion" role="tabpanel" aria-labelledby="nav-conclusion-tab">Conclusion</div>
+				</div>
 			</div>	
-
-
-
-<ul class="nav nav-tabs" id="myTab" role="tablist">
-  <li class="nav-item">
-    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
-  </li>
-</ul>
-<div class="tab-content" id="myTabContent">
-  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-  		<div class="topic1"> 
-			<p style="font-weight:bold">RESEARCH OBJECTIVE:</p>
-			<p>A successful travel company has been a top seller for the past 10 years. Since the COVID-19 pandemic, the company's sales have dropped significantly compared to competitors. The company decided to reorganize its business and asked an IT company to develop an application for its travel agency.</p>
-			<p style="font-weight:bold">PROJECT GOALS:</p>
-				<ul>
-					<li>сonduct research and find out the reason for the decrease in demand for tours;</li>
-					<li>find out what stops people from buying a tour;</li>
-					<li>what type of tours are in demand in the post-COVID period.</li>
-				</ul>
-			<p style="font-weight:bold">MY ROLE:  UX/ UI designer (Individual Project).</p>
-			<p style="font-weight:bold">TOOLS: Miro, InVision, Google Drive.</p>
-			<p style="font-weight:bold">MOBILE PROTOTYPE: “MDtravel.com”.</p>
-			<p style="font-weight:bold">GOAL:</p>
-It is necessary to increase sales and return to pre-pandemic sales levels. Increase in site traffic.
-			<p style="font-weight:bold">MY ROLE & RESPONSIBILITIES</p>
-Explore the needs of tourists after the pandemic, their fears and wishes. Add the necessary services to increase sales. Develop a user-friendly application. Create a pleasing design.
-
-			<p style="font-weight:bold">TIME LINE: 5 weeks</p>
-
-		</div></div>
-  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
-</div>
-
-			
-			
-		</section>
+	</section>
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 	<footer>
 		
-		<div class="NNN">
+	
 			<ul>
 				<li class="inline-bl">about</li>
 				<li class="inline-bl">skills</li>
 				<li class="inline-bl">work</li>
 				<li class="inline-bl">contact</li>
 			</ul>
-		</div>
+	
 		
-	</footer> 
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </body>
-		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384- J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAVOwwj1yYfORSJoZ+n" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384- Q6E9RHvbIyZFJoft+2mJbHaEWld lv1910Yy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj003uMBJnjuUD4Ih7YwaYdliqfktj0Uod8GCEx 130g8ifwB6" crossorigin="anonymous"></script>
-
-
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
 </html>
+
+

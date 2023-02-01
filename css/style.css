@@ -1,30 +1,30 @@
 
 
-.NNN{	background-color: #00849E;
+.wrap{	
+	background-color: #00849E;
+	
 }
 .inline-bl{
 	display: inline-block;
-	padding-inline-start:1%;
+	padding: 10px;
+	color: #FFF;
 }
 .col-md-4{
-	float:left;
-	background-color:#EBDBFF;
 	padding-inline-start:1%;
-	width:49%;
 }
-.offset-md-4{
+.offset-md-6{
 	float:right;
-	background-color:#EBDBFF;
-	width:49%;
+
 }
 h2{
 	text-align:center;
-	padding: 20px 0 0;
+	padding: 20px;
 }
 #logo_div{
 	text-align:center;
 	padding:1%;
 }
+
 a {
 	outline: none;
 	text-decoration: none;
@@ -35,95 +35,73 @@ a {
 			/* Carousel*/
 
 
-.carousel-animate .carousel-indicators > li.active {
- width: 10px;
- height: 10px;
- opacity: 1;
- background-color: #6AB1BF;
+.slide .carousel-indicators > li.active {
+	width: 30px;
+	height: 5px;
+	opacity: 1;
+	background-color: #6AB1BF;
 }
-.carousel-animate{
- color: #fff;
- text-align: center;
- text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.75);
+.slider{
+	color: #fff;
+	text-align: center;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.75);
 }
-.hero{
- color: #0C788D;	
- }
+
 .btn.btn-lg {
- padding: 10px 40px;
+	padding: 10px 40px;
 }
+
 .btn.btn-hero,
 .btn.btn-hero:hover,
 .btn.btn-hero:focus {
- color: #fff;
- background-color: #00849E;
- border-color: rgb(67,41,97);
- outline: none;
- margin: 20px auto;
+	color: #fff;
+	background-color: #00849E;
+	border-color: rgb(67,41,97);
+	outline: none;
+	margin: 20px auto;
 }
-.carousel-inner .item {
- transition-property: opacity;
-}
-.carousel-fade .carousel-inner .item,
-.carousel-fade .carousel-inner .active.left,
-.carousel-fade .carousel-inner .active.right {
- opacity: 0;
-}
-.carousel-fade .carousel-inner .active,
-.carousel-fade .carousel-inner .next.left,
-.carousel-fade .carousel-inner .prev.right {
- opacity: 1;
-}
-.carousel-fade .carousel-inner .next,
-.carousel-fade .carousel-inner .prev,
-.carousel-fade .carousel-inner .active.left,
-.carousel-fade .carousel-inner .active.right {
- left: 0;
- transform: translate3d(0, 0, 0, 0);
-}
-.carousel-bg .carousel-inner .item {
- background-color: #D0EDF1;
+
+.carousel-inner {
+ background-color: #E9F6F9;
  background-position: center;
- min-height: 580px;
+ min-height: 550px;
  max-width: 500px;
 }
+
 #carousel-example-generic{ 
- min-height: 580px;
- max-width: 500px;
+ min-height: 700px;
+ max-width: 600px;
  margin:0 auto;
- padding: 20px;
+ padding: 5%;
  margin-bottom: 40px;
+ background-color: #9AC8CE;
  }
 
-#AppTravel_img{
-text-align:center;
+.animated{
+	text-align:center;
 }
 
 
 
 
-
-
-
-
-
-.DDD{
-	background-color: #E7FDFF;
+.project{
 	width: 90%;
 	margin: 0 auto;
 	margin-bottom: 30px;
 }
-/*меню_подложка, LIME*/
+		/*Menu_nav*/
 .nav-tabs{
 	padding:1%;
-	background-color: #BDDC7C;
+	background-color: #9AC8CE;
 }
-
-/*вкладки меню с названиями*/
+		/*Menu tabs with titles*/
 .nav-link, .fade{
 	padding:1%;
-
 }
 
-
+footer {
+	height:150px;
+	background-color: #00849E;
+	padding:20px;
+}
 
