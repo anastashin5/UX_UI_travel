@@ -1,35 +1,58 @@
 
-
-.wrap{	
+header{
 	background-color: #00849E;
-	
 }
 .inline-bl{
 	display: inline-block;
-	padding: 10px;
+	padding: 10px 20px;
 	color: #FFF;
 }
+
+.inline-bl:hover {
+	rotate: z -20deg;
+}
+
+.inline{
+	line-height:2.5;
+	list-style-type: square;
+}
+.inline a{
+	outline: none;
+	text-decoration: none;
+	color:white;
+}
+
+.inline:hover {
+	rotate: z -20deg;
+	color: red;
+}
+
+a{
+	outline: none;
+	text-decoration: none;
+	color:blue;
+}
+a:hover{
+	color:white;
+	text-decoration: none;
+} 
+
 .col-md-4{
-	padding-inline-start:1%;
+	padding-inline-start:2%;
 }
 .offset-md-6{
 	float:right;
-
 }
+
 h2{
 	text-align:center;
 	padding: 20px;
 }
 #logo_div{
 	text-align:center;
-	padding:1%;
+	padding:20px;
 }
 
-a {
-	outline: none;
-	text-decoration: none;
-	color:blue;
-}
 
 
 			/* Carousel*/
@@ -99,9 +122,59 @@ a {
 	padding:1%;
 }
 
-footer {
-	height:150px;
+footer{
 	background-color: #00849E;
-	padding:20px;
+	padding: 1%;
 }
 
+
+		/* Slider Up_ Footer*/
+		
+#about_detail{
+	display: none;	
+	margin-left:1.5%;	
+}
+
+#work_detail{
+	display: none;
+	margin-left:7.5%;
+}
+.slider{
+	width:110px;
+	padding-bottom:20px;
+	color: white;
+}
+
+
+		/*Footer_mail*/
+		
+#down{
+	background: #de9a44;
+	margin: 3px;
+	width: 80px;
+	height: 40px;
+	display: none;
+	float: left;
+}
+
+#mail{
+	margin-left:2%;
+}
+#mail_form_div{
+	display: none;
+	position: relative;
+	margin-left:2%;
+}
+.modal{
+	display: none; 
+	position: absolute; 
+	z-index: 1;
+	top: 23%;
+	left: 5%;
+}
+
+.inlines{
+	display: inline-block;
+	padding: 10px 20px;
+	color: #FFF;
+}
