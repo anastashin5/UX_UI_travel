@@ -6,6 +6,7 @@ header{
 	display: inline-block;
 	padding: 10px 20px;
 	color: #FFF;
+	font-size: 18px;
 }
 
 .inline-bl:hover {
@@ -16,6 +17,7 @@ header{
 	line-height:2.5;
 	list-style-type: square;
 }
+
 .inline a{
 	outline: none;
 	text-decoration: none;
@@ -32,13 +34,13 @@ a{
 	text-decoration: none;
 	color:blue;
 }
+
 a:hover{
-	color:white;
 	text-decoration: none;
 } 
 
 .col-md-4{
-	padding-inline-start:2%;
+	padding-inline-start:1%;
 }
 .offset-md-6{
 	float:right;
@@ -48,6 +50,7 @@ h2{
 	text-align:center;
 	padding: 20px;
 }
+
 #logo_div{
 	text-align:center;
 	padding:20px;
@@ -158,7 +161,7 @@ footer{
 }
 
 #mail{
-	margin-left:2%;
+	margin-left:40px;
 }
 #mail_form_div{
 	display: none;
@@ -175,6 +178,6 @@ footer{
 
 .inlines{
 	display: inline-block;
-	padding: 10px 20px;
+	padding: 10px 40px 10px 0;
 	color: #FFF;
 }
