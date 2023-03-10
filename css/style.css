@@ -181,3 +181,28 @@ footer{
 	padding: 10px 40px 10px 0;
 	color: #FFF;
 }
+
+
+
+	/*Page "Grocery"*/
+	
+	
+.d-block{
+	width: 10%;
+	
+}
+
+	/*Page of USDA*/
+	
+.grid-container{
+	display: grid;
+	grid-template-columns: auto auto;
+	padding: 1% 6% 0;
+	gap: 50px;
+}
+.grid-item{
+	border: 5px solid rgba(0, 132, 158, 100%);
+	padding: 30px;
+	font-size: 17px;
+}
+
